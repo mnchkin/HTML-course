@@ -115,7 +115,14 @@
     <span>Просто текст</span>
     <span>Просто текст</span>
     <hr>
-    
+
+    <!--Создание поля для ввода информации-->
+    <form action="" method="post">
+        <label for="user_name">Введите имя</label>
+        <input type="text" placeholder="Введите что-то" value="Что-то" maxlength="5" name="user_name" id="user_name"><br><br>
+        <!--maxlength не позволяет ввести больше символов-->
+        <!--Состояния после maxlength: hidden скроет; а если disabled то туда ничего нельзя будет ввести-->
+
     <!--Подключение JS.
     Этот тег писать перед закрывающей body-->
     <script src="js/main.js"></script>
